@@ -2,6 +2,9 @@ package com.scala.datastructure
 
 import java.util.Arrays
 
+/**
+ * 计数排序
+ */
 object CountingSort {
   
   def main(args: Array[String]): Unit = {
