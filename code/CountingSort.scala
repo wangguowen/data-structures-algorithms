@@ -47,7 +47,7 @@ object CountingSort {
         res(index) = i + min //上一步是 i-min,这一步相当于把之前的对应值还原回去
         index += 1
       }
-    }
+    } 
     res
   }
   
