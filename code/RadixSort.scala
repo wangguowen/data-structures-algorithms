@@ -16,9 +16,7 @@ object RadixSort {
   }
 
   def radixSort(arr: Array[Int]) = {
-    
     val length = arr.length
-
     if (arr == null || length == 0) {
       null
     }
