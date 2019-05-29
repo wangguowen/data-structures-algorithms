@@ -23,7 +23,7 @@ object BubbleSort {
           arr(j + 1) = temp
         }
       }
-      println(s"""第${i + 1}次排序:""" + Arrays.toString(arr))
+      println(s"""第${i + 1}趟排序:""" + Arrays.toString(arr))
     }
   }
   
