@@ -22,7 +22,7 @@ object QuickSort {
    * @param left 数组左边部分
    * @param right 数组右边部分
    */
-  def quickSort(arr: Array[Int], left: Int, right: Int): Array[Int] = {
+  def quickSort(arr: Array[Int], left: Int, right: Int): Unit = {
     var start = left
     var end = right
     val target = arr(left) //定义一个目标数(哨兵)，默认从数组第一个，左边开始
@@ -54,6 +54,5 @@ object QuickSort {
     //递归对左边部分,右边部分快速排序
     if (start > left) quickSort(arr, left, end - 1)
     if (end < right) quickSort(arr, end + 1, right)
-    arr
   }
 }
