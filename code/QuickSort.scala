@@ -46,8 +46,8 @@ object QuickSort {
       }
     }
     
-    println("start大于等于end时:" + "target为" + target + ",start为" + start + ",end为" + end)
-
+    println("start大于等于end时:" + "target为" + target + ",start为" + start + ",end为" + end + ",left为" + left + ",right为" + right)
+    println("----------------------------------------------------------")
     //当左右两边下标相遇时，交换
     arr(left) = arr(start)
     arr(start) = target
